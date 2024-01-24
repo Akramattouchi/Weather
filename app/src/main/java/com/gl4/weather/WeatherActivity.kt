@@ -22,7 +22,7 @@ import java.util.Locale
 class WeatherActivity : AppCompatActivity() {
 
     var CITY: String = "Tunis,tn"
-    var API: String = "8afa65cd9160b44ce01ec3943ac7d50a" // Use API key
+    var API: String = SECRET KEY HERE (NOT TO BE EXPOSED)  // Use API key    
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
