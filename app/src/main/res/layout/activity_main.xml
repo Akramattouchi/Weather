@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_bg">
+
+    <TextView
+        android:id="@+id/tvWelcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="207dp"
+        android:layout_marginEnd="56dp"
+        android:text="Welcome to the weather app"
+        android:textSize="24sp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnGoToWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvWelcomeMessage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="39dp"
+        android:text="Go to Weather"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnGoToSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvWelcomeMessage"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="64dp"
+        android:layout_toStartOf="@+id/btnGoToWeather"
+        android:text="Go to Settings"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>
